@@ -1,0 +1,19 @@
+.img-movie-shots {
+  object-fit: cover;
+  height: 100%;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+.movie-shots__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.movie-shot__container {
+  max-width: 250px;
+  margin: 0px 10px 10px 0px;
+  border: solid 2px rgba(176, 159, 159, 0.55);
+}
